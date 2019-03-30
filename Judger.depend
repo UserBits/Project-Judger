@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1552796960 source:e:\judger\project.rc
+	<windows.h>
+
+1553307488 source:e:\judger\main.cpp
+	<iostream>
+	<string>
+	<cstring>
+	<cstdio>
+	<cstdlib>
+	<fstream>
+	<algorithm>
+	<ctime>
+	<vector>
+	<windows.h>
+	<tlhelp32.h>
+	<psapi.h>
+	<io.h>
+	"execute.hpp"
+	"compile.hpp"
+	"auto.hpp"
+	"functions.hpp"
+
+1552803289 e:\judger\execute.hpp
+
+1552799203 e:\judger\compile.hpp
+
+1552799914 e:\judger\auto.hpp
+
+1553224966 e:\judger\functions.hpp
+
