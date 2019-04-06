@@ -5,6 +5,8 @@
 
 **下载后请自行按照个人配置修改源代码。（使用CodeBlocks环境）**
 
+**其中example.zip是一个评测示例。**
+
 默认输出为64位。
 
 主程序main.cpp，头文件auto.hpp/compile.hpp/execute.hpp/functions.hpp，图标MainIcon.ico，链接库libpsapi.a(即为psapi.lib)
@@ -32,6 +34,8 @@ argv[1]工作目录，argv[2]配置文件，argv[3]待评测的源程序，argv[
 compile.hpp中的compile函数，即调用编译器对**待评测程序**进行编译。默认编译时限10s。有三个参数：s为编译器文件名（完整），dir为编译器**路径**，cmd为编译参数。如s="D:\TDM-GCC\bin\g++.exe"，dir="D:\TDM-GCC\bin"，cmd=" test.cpp -o test.exe -lm"。您也可以调用别的编译器，以支持其他语言。
 
 execute.hpp中的execute函数，即在评测时运行**待评测程序**。若待评测程序运行超过时间限制，**待评测程序**将立即被强制关闭。
+
+**其中example.zip是一个评测示例。**
 
 **该程序遵守GPL v3.0条约。**
 
